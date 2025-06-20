@@ -1,0 +1,8 @@
+npm create vite@latest frontend -- --template react
+
+
+sudo docker-compose down -v --remove-orphans
+
+sudo docker system prune -af --volumes
+
+sudo docker-compose up --build

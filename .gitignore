@@ -1,0 +1,46 @@
+# MongoDB data
+data/
+
+
+# === Node Modules ===
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+
+# === Environment Files ===
+.env
+.env.*  # in case you use .env.development, etc.
+
+# === Logs ===
+*.log
+logs/
+*.log.*
+log/
+
+# === Docker Volumes & Build Artifacts ===
+data/
+*.pid
+*.seed
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE/Editor Specific ===
+.vscode/
+.idea/
+*.swp
+
+# === Build Artifacts ===
+**/dist/
+**/build/
+
+# === Nginx Configs or Certificates (if generated) ===
+*.crt
+*.key
+
+# === Coverage Reports ===
+coverage/
+
+# === Misc ===
+*.tgz
